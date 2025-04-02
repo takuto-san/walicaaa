@@ -4,9 +4,11 @@
 
 ##### コミット名
 基本
+
 DayXX {変更内容}
 
-細かい修正
+追加の細かい修正
+
 Fix {修正を加えた内容}
 
 例:
@@ -16,23 +18,25 @@ Day2 main.py（API）の内容を修正
 Day3 トップページのレイアウトを変更
 
 ```
-1日に複数コミットしてかまわない。例えばトップページのレイアウトとバックエンドのAPIを修正したなら
-Day{n}, Day{n+1}のように分けてコミットしていい
+* できるだけ実装した機能、担当したタスクごとにコミットする
+* 1日に複数コミットしてかまわない。例えばトップページのレイアウトとバックエンドのAPIを修正したなら
+Day2, Day3のように分けてコミットしていい
 
-後から参加した開発者がコミット履歴を辿って理解できるように、DayXXという表記でお願いしたい
+* 後から参加した開発者がコミット履歴を辿って理解できるように、DayXXという表記にしてみた
 
-なお、コミットメッセージミスったときは git commit --amend で修正できる
+* なお、コミットメッセージミスったときは git commit --amend で修正できる
 https://docs.github.com/ja/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message
 
 ...
 
 # ブランチ
+```
 main
 |-develop
     |- takutosan
     |- hayato
 
-
+```
 ### 初期セットアップ
 1. 仮想環境（venv, anaconda）に入る
 2. walicaaaディレクトリに移動
