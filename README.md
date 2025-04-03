@@ -67,8 +67,7 @@ http://localhost:3000 でブラウザ上画面が表示される
 
 ### サーバー起動（バックエンド）
 ```console
-$ cd backend/src
-$ uvicorn main:app --reload
+$ uvicorn app.main:app --reload
 
 ```
 http://127.0.0.1:8000 でアクセス可能
